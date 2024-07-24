@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        font-size: 16px;
+      }
+      .w3-half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer;
+      }
+      .w3-half img:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sidebar/menu -->
+    <nav
+      class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding"
+      style="z-index: 3; width: 300px; font-weight: bold"
+      id="mySidebar"
+    >
+      <br />
+      <a
+        href="javascript:void(0)"
+        onclick="w3_close()"
+        class="w3-button w3-hide-large w3-display-topleft"
+        style="width: 100%; font-size: 22px"
+        >Close Menu</a
+      >
+      <div class="w3-container">
+        <h3 class="w3-padding-64">
+          <img src="image/logo.png " style="height: 150px;width: auto;" />
+          
+        </h3>
+      </div>
+      <div class="w3-bar-block">
+        <a
+          href="#"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-hover-white"
+          >Home</a
+        >
+
+        <a
+          href="#recent_activity"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-hover-white"
+          >Recent Activity</a
+        >
+        <a
+          href="#archievement"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-hover-white"
+          >Archievement</a
+        >
+        <a
+          href="#faculty"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-hover-white"
+          >Faculty</a
+        >
+        <a
+          href="#contact"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-hover-white"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header
+      class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding"
+    >
+      <a
+        href="javascript:void(0)"
+        class="w3-button w3-blue w3-margin-right"
+        onclick="w3_open()"
+        >☰</a
+      >
+      <span style="font-size: small; margin-left: 10px"
+        ><b>ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி</b></span
+      >
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large"
+      onclick="w3_close()"
+      style="cursor: pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left: 340px; margin-right: 23px">
+      <!-- Header -->
+      <div class="backbutton" id="back"></div>
+      <div class="w3-container" style="margin-top: 80px" id="about">
+        <h2
+          class="school name"
+          style="color: rgb(28, 120, 240); margin-left: 23px"
+        >
+          <b>ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி</b><br />
+          <h5 style="margin-left: 25px">காளப்பநாயக்கன்பாளையம் - கோவை</h5>
+        </h2>
+        <div class="front-image">
+          <img
+            src="image/IMG-20240213-WA0065.jpg"
+            style="width: 100%; height: auto; padding-top: 20px"
+          />
+        </div>
+        <h4 class="w3-xxxlarge w3-text-blue" id="about"><b>About Us.</b></h4>
+        <hr style="width: 50px; border: 5px solid gray" class="w3-round" />
+      </div>
+
+      <div class="about-content" id="about">
+        <p>
+          <b>
+            Our school is situated in a natural environment at
+            Kalapanayakanpalayam under Somayambalayam Panchayat. Our school was
+            started as a primary school on 25-02-1925 and then upgraded to a
+            middle school in 2003 till today with more than 200 students and 10
+            teachers along with the head teacher Mrs. M.suguna MA, B.Ed, M.Phil
+            is working effectively under his guidance.
+            <p>
+              Tamil Nadu Government Schools play a pivotal role in shaping the
+              educational landscape of the state. Committed to providing quality
+              education to all, these institutions strive to empower students
+              with knowledge and skills for a brighter future.Many government
+              schools in Tamil Nadu have undergone significant infrastructure
+              improvements. Modern classrooms, well-equipped laboratories, and
+              libraries contribute to a conducive learning environment.
+            </p>
+            <p>
+              The schools follow the state-approved curriculum, which is
+              designed to meet national standards and equip students with a
+              well-rounded education. Emphasis is placed on languages,
+              mathematics, science, and social sciences.The teaching staff in
+              government schools undergo rigorous training and are dedicated to
+              nurturing the intellectual and personal growth of their students.
+            </p>
+            The government of Tamil Nadu often introduces scholarship programs
+            to support students financially, encouraging them to pursue higher
+            education and excel in their chosen fields. PTAs play a crucial role
+            in fostering communication between parents and school authorities,
+            ensuring a collaborative approach to education. Schools organize
+            health and awareness programs, creating a holistic learning
+            environment that goes beyond academics.
+
+            
+        </p>
+      </div>
+
+      <!-- Recent Activity-->
+      <div class="recent-activity" id="recent_activity" style="margin-top: 75px">
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Recent Activity.</b></h1>
+        <hr style="width: 50px; border: 5px solid grey" class="w3-round" />
+        <p>
+          Our school have embarked on a recent wave of
+          advancements, focusing on diverse facets of education. The curriculum
+          has been revitalized, incorporating contemporary subjects to provide
+          students with a comprehensive and relevant learning experience. Robust
+          sports programs are fostering physical fitness and instilling values
+          of teamwork and discipline. In the realm of science education, there's
+          a renewed emphasis on practical and hands-on learning, encouraging
+          students to explore and innovate. These initiatives collectively
+          reflect a commitment to holistic development, aligning with global
+          educational standards. Tamil Nadu government schools are evolving to
+          equip students with the skills and knowledge needed for success in an
+          ever-changing world.
+        </p>
+        <div class="slidshow">
+          <style>
+        .slideshow-container {
+            max-width: 600px;
+            position: relative;
+            margin: auto;
+             max-height: fit-content;
+        }
+
+        .mySlides {
+            display: none;
+            width: 100%;
+        }
+
+        .myslides ,img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Optional: Style for navigation dots */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            cursor: pointer;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+    </style>
+
+
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="mySlides">
+            <img src="image/IMG-20240210-WA0040.jpg" alt="Image 1">
+        </div>
+
+        <div class="mySlides">
+            <img src="image/IMG-20240213-WA0027.jpg" alt="Image 2">
+        </div>
+
+        <div class="mySlides">
+            <img src="image/IMG-20240213-WA0027.jpg" alt="Image 3">
+        </div>
+       <div class="mySlides">
+            <img src="image/IMG-20240213-WA0059.jpg" alt="Image 4">
+        </div>
+
+        <div class="mySlides">
+            <img src="image/IMG-20240213-WA0094.jpg" alt="Image 5">
+        </div>
+
+        <div class="mySlides">
+            <img src="image/IMG-20240212-WA0037.jpg" alt="Image 6">
+        </div>
+        <div class="mySlides">
+            <img src="image/IMG-20240212-WA0027.jpg" alt="Image 7">
+        </div>
+       <div class="mySlides">
+            <img src="image/IMG-20240212-WA0032.jpg" alt="Image 8">
+        </div>
+
+        <div class="mySlides">
+            <img src="image/IMG-20240210-WA0024.jpg" alt="Image 9">
+        </div>
+
+        <div class="mySlides">
+            <img src="image/IMG-20240216-WA0022.jpg" alt="Image 3">
+        </div>
+        <!-- Optional: Navigation dots -->
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+             <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+             <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script>
+        // Optional: JavaScript for automatic slideshow
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+
+            setTimeout(showSlides, 2000); // Change slide every 2 seconds
+        }
+    </script>
+        </div>
+       
+      </div>
+
+      <!-- archievement -->
+      <div class="w3-container" id="archievement" style="margin-top: 75px">
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Archievement.</b></h1>
+        <hr style="width: 50px; border: 5px solid gray" class="w3-round" />
+
+        <p>
+                
+    In our school, both students and teachers continually achieve
+     remarkable milestones. Students showcase excellence in academics, sports, and extracurricular
+    activities, earning accolades at district and state levels. Their accomplishments reflect the dedicated
+     efforts of teachers who employ innovative teaching methodologies. Teachers, in turn, receive recognition 
+     for their commitment to nurturing talents and fostering holistic development. The symbiotic relationship between
+    students and teachers creates a dynamic learning environment, fostering a culture of achievement. 
+    This cycle of success in our school stands
+     as a testament to the collaborative spirit and unwavering dedication within the educational community.
+        </p>
+      </div>
+
+      <!-- The Team -->
+      <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="image/IMG-20240212-WA0036.jpg" alt="HM" style="width: 100%" />
+            <div class="w3-container">
+              <h3>Suguna M</h3>
+              <p class="w3-opacity">Head Mistrees</p>
+              <p>
+                NILP Award FOE 2022-2023
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="image/IMG-20240213-WA0019.jpg" alt="HM" style="width: 100%" />
+            <div class="w3-container">
+              <h3>Suguna M</h3>
+              <p class="w3-opacity">Head Mistrees</p>
+              <p>
+                Tamilnadu-State writter award ceremony
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="image/IMG-20240212-WA0015.jpg" alt="Mike" style="width: 100%" />
+            <div class="w3-container">
+              <h3></h3>
+              <p class="w3-opacity"></p>
+              <p>
+                Best SMC award got by pums Kalapanayakanpalayam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Packages / Pricing Tables -->
+      <div class="w3-container" id="faculty" style="margin-top: 75px">
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Faculty.</b></h1>
+        <hr style="width: 50px; border: 5px solid grey" class="w3-round" />
+      
+      </div>
+<div class="faculty-image">
+          <img
+            src="image/IMG-20240216-WA0018.jpg"
+            style="width: 100%; height: auto; padding-top: 20px"
+          />
+        </div>  
+      <div class="w3-row-padding" style="padding-top: 20px;">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-light-grey w3-center">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Faculty Name</li>
+            <li class="w3-padding-16">Suguna M</li>
+            <li class="w3-padding-16">Malliga D</li>
+            <li class="w3-padding-16">Gomathi D</li>
+            <li class="w3-padding-16">Padmavathi C</li>
+            <li class="w3-padding-16">Saretha K</li>
+             
+          </ul>
+        </div>
+
+        <div class="w3-half">
+          <ul class="w3-ul w3-light-grey w3-center">
+            <li class="w3-blue w3-xlarge w3-padding-32">Faculty Name</li>
+           <li class="w3-padding-16">Vanthana A</li>
+            <li class="w3-padding-16">Kalaivathi T</li>
+            <li class="w3-padding-16">Arockiadass S</li>
+            <li class="w3-padding-16">Kalaiselvi K</li>
+            <li class="w3-padding-16">Jansirani J</li>
+            
+            
+             
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="w3-container" id="contact" style="margin-top: 75px">
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Contact.</b></h1>
+        <hr style="width: 50px; border: 5px solid gray" class="w3-round" />
+        <p>
+         
+        For inquiries or information, please feel free to contact us. 
+        </p>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+    </style>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@example.com">cbepumsklp@gmail.com</a></p>
+        <p>Contact Number: <a href="tel:+91123456789">+919791622783</a></p>
+        <p>Address: <br>Pums Kalappanaikenpalayam,Somayampalayam,<br>Periyenayakken Palayam,coimbatore</p>
+    </div>
+
+      <!-- End page content -->
+    </div>
+
+    
+    
+
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+    </script>
+   
+    <div class="backbutton">
+      <a href="#back" style="text-align: center;color: rgb(25, 165, 247);font-size: 20px;">Back</a>
+    </div>
+  </body>
+</html>
+
